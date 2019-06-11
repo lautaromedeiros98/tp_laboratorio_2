@@ -12,6 +12,12 @@ namespace Archivos
 {
 	public class Xml<T> : IArchivo<T>
 	{
+		/// <summary>
+		/// Escribe en un archivo de formato xml especificado el o los datos pasados por parametro
+		/// </summary>
+		/// <param name="archivo"></param>
+		/// <param name="datos"></param>
+		/// <returns></returns>
 		public bool Guardar(string archivo,T datos)
 		{
 			try
@@ -28,6 +34,12 @@ namespace Archivos
 			}
 		}
 
+		/// <summary>
+		/// Lee un archivo de formato xml especificado y los asigna a variable pasada por parametro de referencia
+		/// </summary>
+		/// <param name="archivo"></param>
+		/// <param name="datos"></param>
+		/// <returns></returns>
 		public bool Leer(string archivo,out T datos)
 		{
 			try

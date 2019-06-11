@@ -14,6 +14,10 @@ namespace Clases_Abstractas
 		private ENacionalidad nacionalidad;
 		private string nombre;
 
+		/// <summary>
+		/// Retorna el valor del atributo apellido de una persona
+		/// Asigna valor al atributo apellido de una persona si este es valido
+		/// </summary>
 		public string Apellido
 		{
 			get
@@ -26,6 +30,10 @@ namespace Clases_Abstractas
 			}
 		}
 
+		/// <summary>
+		/// Retorna el valor del atributo dni de una persona
+		/// Asigna valor al atributo dni de una persona si este es valido
+		/// </summary>
 		public int DNI
 		{
 			get
@@ -38,6 +46,12 @@ namespace Clases_Abstractas
 			}
 		}
 
+		/// <summary>
+		/// <summary>
+		/// Retorna el valor del atributo nacionalidad de una persona
+		/// Asigna valor al nacionalidad dni de una persona si este es valido
+		/// </summary>
+		/// </summary>
 		public ENacionalidad Nacionalidad
 		{
 			get
@@ -46,10 +60,17 @@ namespace Clases_Abstractas
 			}
 			set
 			{
-				this.nacionalidad = value;
+				if(value == ENacionalidad.Argentino || value == ENacionalidad.Extranjero)
+				{
+					this.nacionalidad = value;
+				}
 			}
 		}
 
+		/// <summary>
+		/// Retorna el valor del atributo nombre de una persona
+		/// Asigna valor al nombre dni de una persona si este es valido
+		/// </summary>
 		public string Nombre
 		{
 			get
@@ -62,6 +83,10 @@ namespace Clases_Abstractas
 			}
 		}
 
+		/// <summary>
+		/// Retorna el valor del atributo dni de una persona
+		/// Asigna valor al atributo dni de una persona si este es valido
+		/// </summary>
 		public string StringToDni
 		{
 			set
@@ -70,11 +95,20 @@ namespace Clases_Abstractas
 			}
 		}
 
+		/// <summary>
+		/// Constructor por defecto
+		/// </summary>
 		public Persona()
 		{
 
 		}
 
+		/// <summary>
+		/// Constructor que inicializa los parametros si estos son validos
+		/// </summary>
+		/// <param name="nombre"></param>
+		/// <param name="apellido"></param>
+		/// <param name="nacionalidad"></param>
 		public Persona(string nombre,string apellido,ENacionalidad nacionalidad)
 		{
 			this.Nombre = nombre;
@@ -82,18 +116,36 @@ namespace Clases_Abstractas
 			this.nacionalidad = nacionalidad;
 		}
 
+		/// <summary>
+		/// Constructor que inicializa los parametros si estos son validos
+		/// </summary>
+		/// <param name="nombre"></param>
+		/// <param name="apellido"></param>
+		/// <param name="dni"></param>
+		/// <param name="nacionalidad"></param>
 		public Persona(string nombre,string apellido,int dni,ENacionalidad nacionalidad)
 			:this(nombre,apellido,nacionalidad)
 		{
 			this.DNI = dni;
 		}
 
+		/// <summary>
+		/// Constructor que inicializa los parametros si estos son validos
+		/// </summary>
+		/// <param name="nombre"></param>
+		/// <param name="apellido"></param>
+		/// <param name="dni"></param>
+		/// <param name="nacionalidad"></param>
 		public Persona(string nombre,string apellido,string dni,ENacionalidad nacionalidad)
 			:this(nombre,apellido,nacionalidad)
 		{
 			this.StringToDni = dni;
 		}
 
+		/// <summary>
+		/// Retorna los datos de una persona en forma de string
+		/// </summary>
+		/// <returns></returns>
 		public override string ToString()
 		{
 			StringBuilder sb = new StringBuilder();
@@ -102,6 +154,12 @@ namespace Clases_Abstractas
 			return sb.ToString();
 		}
 
+		/// <summary>
+		/// Valida que el dato sea un dni valido y que corresponda a una nacionalidad valida
+		/// </summary>
+		/// <param name="nacionalidad"></param>
+		/// <param name="dato"></param>
+		/// <returns></returns>
 		public int ValidarDni(ENacionalidad nacionalidad,int dato)
 		{
 			int auxiliar;
@@ -122,11 +180,22 @@ namespace Clases_Abstractas
 			}
 		}
 
+		/// <summary>
+		/// Valida que el dato sea un dni valido y que corresponda a una nacionalidad valida
+		/// </summary>
+		/// <param name="nacionalidad"></param>
+		/// <param name="dato"></param>
+		/// <returns></returns>
 		public int ValidarDni(ENacionalidad nacionalidad,string dato)
 		{
 			return (ValidarDni(nacionalidad,int.Parse(dato)));
 		}
 
+		/// <summary>
+		/// Valida que el dato sea un nombre o un apellido valido
+		/// </summary>
+		/// <param name="dato"></param>
+		/// <returns></returns>
 		public string ValidarNombreApellido(string dato)
 		{
 			foreach(char a in dato)

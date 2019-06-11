@@ -16,6 +16,9 @@ namespace Clases_Instanciables
 		private List<Jornada> jornada;
 		private List<Profesor> profesores;
 
+		/// <summary>
+		/// Asigna valores y/o retorna la lista de alumnos
+		/// </summary>
 		public List<Alumno> Alumnos
 		{
 			get
@@ -28,6 +31,9 @@ namespace Clases_Instanciables
 			}
 		}
 
+		/// <summary>
+		/// Asigna valores y/o retorna la lista de jornadas
+		/// </summary>
 		public List<Jornada> Jornadas
 		{
 			get
@@ -40,6 +46,9 @@ namespace Clases_Instanciables
 			}
 		}
 
+		/// <summary>
+		/// Asigna valores y/o retorna la lista de profesores
+		/// </summary>
 		public List<Profesor> Instructores
 		{
 			get
@@ -52,6 +61,11 @@ namespace Clases_Instanciables
 			}
 		}
 
+		/// <summary>
+		/// indexador tipo entero para recorrer la lista de jornadas
+		/// </summary>
+		/// <param name="i"></param>
+		/// <returns></returns>
 		public Jornada this[int i]
 		{
 			get
@@ -64,12 +78,22 @@ namespace Clases_Instanciables
 			}
 		}
 
+		/// <summary>
+		/// Escribe un archivo xml con los datos de una universidad
+		/// </summary>
+		/// <param name="uni"></param>
+		/// <returns></returns>
 		public static bool Guardar(Universidad uni)
 		{
 			Xml<Universidad> xml = new Xml<Universidad>();
 			return xml.Guardar("Universidad.xml", uni);
 		}
 
+		/// <summary>
+		/// retorna en formato de string los datos de una universidad
+		/// </summary>
+		/// <param name="uni"></param>
+		/// <returns></returns>
 		private static string MostrarDatos(Universidad uni)
 		{
 			StringBuilder sb = new StringBuilder();
@@ -95,16 +119,34 @@ namespace Clases_Instanciables
 			return sb.ToString();
 		}
 
+		/// <summary>
+		/// una universidad es distinta de un alumno si el mismo no pertenece a esta
+		/// </summary>
+		/// <param name="g"></param>
+		/// <param name="a"></param>
+		/// <returns></returns>
 		public static bool operator !=(Universidad g,Alumno a)
 		{
 			return !(g == a);
 		}
 
+		/// <summary>
+		/// una universidad es distinta a un profesor si este no dicta clases en la misma
+		/// </summary>
+		/// <param name="g"></param>
+		/// <param name="i"></param>
+		/// <returns></returns>
 		public static bool operator !=(Universidad g,Profesor i)
 		{
 			return !(g == i);
 		}
 
+		/// <summary>
+		/// Verifica que la clase tenga un profesor para dar la clase , caso contrario lo asigna
+		/// </summary>
+		/// <param name="u"></param>
+		/// <param name="clase"></param>
+		/// <returns></returns>
 		public static Profesor operator !=(Universidad u,EClases clase)
 		{
 			foreach(Profesor item in u.Instructores)
@@ -117,7 +159,12 @@ namespace Clases_Instanciables
 			return null;
 		}
 
-
+		/// <summary>
+		/// Operador que agrega una clase a la universidad con un profesor que la dicte
+		/// </summary>
+		/// <param name="g"></param>
+		/// <param name="clase"></param>
+		/// <returns></returns>
 		public static Universidad operator +(Universidad g,EClases clase)
 		{
 			Profesor p = (g == clase);
@@ -136,6 +183,12 @@ namespace Clases_Instanciables
 			return g;
 		}
 
+		/// <summary>
+		/// agrega un alumno a una universidad si el mismo no pertenece a la universidad
+		/// </summary>
+		/// <param name="u"></param>
+		/// <param name="a"></param>
+		/// <returns></returns>
 		public static Universidad operator +(Universidad u,Alumno a)
 		{
 			if(u!=a)
@@ -145,6 +198,12 @@ namespace Clases_Instanciables
 			return u;
 		}
 
+		/// <summary>
+		/// agrega un profesor a una universidad si el mismo no pertenece a esta
+		/// </summary>
+		/// <param name="u"></param>
+		/// <param name="i"></param>
+		/// <returns></returns>
 		public static Universidad operator +(Universidad u,Profesor i)
 		{
 			if(u!=i)
@@ -154,6 +213,12 @@ namespace Clases_Instanciables
 			return u;
 		}
 
+		/// <summary>
+		/// una universidad es igual a un alumno si este pertenece a la misma
+		/// </summary>
+		/// <param name="g"></param>
+		/// <param name="a"></param>
+		/// <returns></returns>
 		public static bool operator ==(Universidad g, Alumno a)
 		{
 			foreach(Alumno item in g.Alumnos)
@@ -166,6 +231,12 @@ namespace Clases_Instanciables
 			return false;
 		}
 
+		/// <summary>
+		/// una universidad es igual a un profesor si este dicta clases en la misma
+		/// </summary>
+		/// <param name="g"></param>
+		/// <param name="i"></param>
+		/// <returns></returns>
 		public static bool operator ==(Universidad g, Profesor i)
 		{
 			foreach(Profesor item in g.Instructores)
@@ -178,6 +249,12 @@ namespace Clases_Instanciables
 			return false;
 		}
 
+		/// <summary>
+		/// una universidad es igual a una clase si en esa clase hay un profesor dictando clases
+		/// </summary>
+		/// <param name="u"></param>
+		/// <param name="clase"></param>
+		/// <returns></returns>
 		public static Profesor operator ==(Universidad u, EClases clase)
 		{
 			foreach (Profesor p in u.Instructores)
@@ -190,11 +267,18 @@ namespace Clases_Instanciables
 			throw new SinProfesorException();
 		}
 
+		/// <summary>
+		/// Retorna los datos de una universidad en forma de string
+		/// </summary>
+		/// <returns></returns>
 		public override string ToString()
 		{
 			return MostrarDatos(this);
 		}
 
+		/// <summary>
+		/// cponstructor por defecto que inicializa las listas de alumnos,profesores y jornadas
+		/// </summary>
 		public Universidad()
 		{
 			this.alumnos = new List<Alumno>();

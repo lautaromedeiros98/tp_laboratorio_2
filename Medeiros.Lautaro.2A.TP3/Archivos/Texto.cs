@@ -11,6 +11,12 @@ namespace Archivos
 {
     public class Texto : IArchivo<string>
     {
+		/// <summary>
+		/// Escribe en un archivo de texto especificado el o los datos pasados por parametro
+		/// </summary>
+		/// <param name="archivo"></param>
+		/// <param name="datos"></param>
+		/// <returns></returns>
 		public bool Guardar(string archivo, string datos)
 		{
 			try
@@ -26,6 +32,12 @@ namespace Archivos
 			}
 		}
 
+		/// <summary>
+		/// Lee un archivo de texto especificado y los asigna a variable pasada por parametro de referencia
+		/// </summary>
+		/// <param name="archivo"></param>
+		/// <param name="datos"></param>
+		/// <returns></returns>
 		public bool Leer(string archivo, out string datos)
 		{
 			try
