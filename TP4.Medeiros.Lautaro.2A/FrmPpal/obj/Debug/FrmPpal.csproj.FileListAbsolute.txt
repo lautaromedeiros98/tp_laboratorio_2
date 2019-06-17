@@ -1,0 +1,10 @@
+C:\Users\Lalo\source\repos\TP4.Medeiros.Lautaro.2A\FrmPpal\bin\Debug\FrmPpal.exe.config
+C:\Users\Lalo\source\repos\TP4.Medeiros.Lautaro.2A\FrmPpal\bin\Debug\FrmPpal.exe
+C:\Users\Lalo\source\repos\TP4.Medeiros.Lautaro.2A\FrmPpal\bin\Debug\FrmPpal.pdb
+C:\Users\Lalo\source\repos\TP4.Medeiros.Lautaro.2A\FrmPpal\obj\Debug\FrmPpal.csprojAssemblyReference.cache
+C:\Users\Lalo\source\repos\TP4.Medeiros.Lautaro.2A\FrmPpal\obj\Debug\FrmPpal.Form1.resources
+C:\Users\Lalo\source\repos\TP4.Medeiros.Lautaro.2A\FrmPpal\obj\Debug\FrmPpal.Properties.Resources.resources
+C:\Users\Lalo\source\repos\TP4.Medeiros.Lautaro.2A\FrmPpal\obj\Debug\FrmPpal.csproj.GenerateResource.cache
+C:\Users\Lalo\source\repos\TP4.Medeiros.Lautaro.2A\FrmPpal\obj\Debug\FrmPpal.csproj.CoreCompileInputs.cache
+C:\Users\Lalo\source\repos\TP4.Medeiros.Lautaro.2A\FrmPpal\obj\Debug\FrmPpal.exe
+C:\Users\Lalo\source\repos\TP4.Medeiros.Lautaro.2A\FrmPpal\obj\Debug\FrmPpal.pdb
