@@ -8,36 +8,25 @@ namespace TestUnitarios
 	public class Tests
 	{
 		/// <summary>
-		/// Verifica que la lista de paquetes de un correo este instanciada
+		/// Verifica que la lista de paquetes este inicializada 
 		/// </summary>
 		[TestMethod]
-		public void TestPaqueteDeCorreoNULL()
+		public void PaqueteCorreoNull()
 		{
 			Correo correo = new Correo();
-			bool v = false;
-			try
-			{
-				Assert.IsNotNull(correo);
-				v = true;
-			}
-			catch (Exception)
-			{
-
-			}
-			Assert.IsTrue(v);
+			Assert.IsNotNull(correo);
+			Assert.IsTrue(true);			
 		}
 
 		/// <summary>
-		/// Verifica que no se puedan cargar 2 paqueetes con un mismo tracking id
+		/// Verifica que no se puedan cargar 2 paqueetes con un mismo id
 		/// </summary>
 		[TestMethod]
-		public void TestPaquetesTrackingID()
+		public void TestTrackingIdIguales()
 		{
 			Correo correo = new Correo();
-			Paquete p1 = new Paquete("Alguna Calle", "123");
-			Paquete p2 = new Paquete("Alguna Calle", "123");
-			bool v = false;
-
+			Paquete p1 = new Paquete("Siempre viva", "123433");
+			Paquete p2 = new Paquete("Siempre viva", "123433");
 			try
 			{
 				correo += p1;
@@ -45,9 +34,8 @@ namespace TestUnitarios
 			}
 			catch (TrackingIdRepetidoException)
 			{
-				v = true;
-			}
-			Assert.IsTrue(v);
+				Assert.IsTrue(true);
+			}			
 		}
 	}
 }

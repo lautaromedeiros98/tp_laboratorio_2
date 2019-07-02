@@ -14,3 +14,19 @@ C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\TestConsola\obj\Debug\TestCon
 C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\TestConsola\obj\Debug\TestConsola.csproj.CopyComplete
 C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\TestConsola\obj\Debug\TestConsola.exe
 C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\TestConsola\obj\Debug\TestConsola.pdb
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\bin\Debug\TestConsola.exe.config
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\bin\Debug\TestConsola.exe
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\bin\Debug\TestConsola.pdb
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\bin\Debug\Archivos.dll
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\bin\Debug\Clases Abstractas.dll
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\bin\Debug\Clases Instanciables.dll
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\bin\Debug\Excepciones.dll
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\bin\Debug\Archivos.pdb
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\bin\Debug\Clases Abstractas.pdb
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\bin\Debug\Clases Instanciables.pdb
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\bin\Debug\Excepciones.pdb
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\obj\Debug\TestConsola.csprojAssemblyReference.cache
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\obj\Debug\TestConsola.csproj.CoreCompileInputs.cache
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\obj\Debug\TestConsola.csproj.CopyComplete
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\obj\Debug\TestConsola.exe
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\TestConsola\obj\Debug\TestConsola.pdb

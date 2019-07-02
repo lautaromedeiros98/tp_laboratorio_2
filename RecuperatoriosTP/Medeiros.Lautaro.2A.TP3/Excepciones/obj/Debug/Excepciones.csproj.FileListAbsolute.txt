@@ -1,0 +1,12 @@
+C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Excepciones\obj\Debug\Excepciones.pdb

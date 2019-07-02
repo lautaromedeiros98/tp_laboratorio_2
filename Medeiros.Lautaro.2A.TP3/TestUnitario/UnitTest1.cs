@@ -17,17 +17,15 @@ namespace TestUnitario
 		[TestMethod]
 		public void TestExceptionAlumnoRepetido()
 		{
-			Universidad gim = new Universidad();
-			Alumno a1 = new Alumno(1, "Juan", "Lopez", "12234456",
-		   Clases_Abstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Programacion,
+			Universidad universidad = new Universidad();
+			Alumno a1 = new Alumno(1, "Dran", "Lopez", "41551423",Clases_Abstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Programacion,
 		   Alumno.EEstadoCuenta.Becado);
-			Alumno a2 = new Alumno(1, "Juan", "Lopez", "12234456",
-		   Clases_Abstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Programacion,
+			Alumno a2 = new Alumno(1, "Dran", "Lopez", "41551423", Clases_Abstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Programacion,
 		   Alumno.EEstadoCuenta.Becado);
 			try
 			{
-				gim += a1;
-				gim += a2;
+				universidad	 += a1;
+				universidad	 += a2;
 			}
 			catch (Exception ex)
 			{
@@ -36,10 +34,26 @@ namespace TestUnitario
 		}
 
 		/// <summary>
-		/// Test de la Excepcion DniInvalido
+		/// Verifica un dni que sea valido
 		/// </summary>
 		[TestMethod]
 		public void TestExceptionDniInvalido()
+		{
+			try
+			{
+				Alumno a1 = new Alumno(1, "Pedro", "Lopez", "abc123", Clases_Abstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Programacion, Alumno.EEstadoCuenta.Deudor);
+			}
+			catch (Exception ex)
+			{
+				Assert.IsInstanceOfType(ex, typeof(DniInvalidoException));
+			}
+		}
+
+		/// <summary>
+		/// Valida el dni y la nacionalidad
+		/// </summary>
+		[TestMethod]
+		public void TestDniValidoParaNacionalidad()
 		{
 			try
 			{
@@ -52,30 +66,16 @@ namespace TestUnitario
 		}
 
 		/// <summary>
-		/// Test del validar Dni cuando no corresponde a su nacionalidad, o teset de NacionalidadInvalida
-		/// </summary>
-		[TestMethod]
-		public void TestDniValidoParaNacionalidad()
-		{
-			try
-			{
-				Alumno a1 = new Alumno(1, "Pedro", "Lopez", "91000000", Clases_Abstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.SPD, Alumno.EEstadoCuenta.AlDia);
-			}
-			catch (Exception ex)
-			{
-				Assert.IsInstanceOfType(ex, typeof(NacionalidadInvalidaException));
-			}
-		}
-
-		/// <summary>
-		/// Test de que al crear una universidad sus atributos no queden en null
+		/// Verifica que los atributos de la universidad esten inicializados
 		/// </summary>
 		[TestMethod]
 		public void TestAtributosNull()
 		{
-			Universidad uni = new Universidad();
-			if (uni.Alumnos is null || uni.Jornadas is null || uni.Instructores is null)
+			Universidad universidad = new Universidad();
+			if (universidad.Alumnos is null || universidad.Jornadas is null || universidad.Instructores is null)
+			{
 				Assert.IsTrue(false);
+			}
 			Assert.IsTrue(true);
 		}
 

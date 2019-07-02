@@ -32,7 +32,7 @@ namespace TestConsola
 			}
 			try
 			{
-				Alumno a3 = new Alumno(3, "José", "Gutierrez", "12234456",
+				Alumno a3 = new Alumno(3, "Jose", "Gutierrez", "12234456",
 			   Clases_Abstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Programacion,
 			   Alumno.EEstadoCuenta.Becado);
 				gim += a3;

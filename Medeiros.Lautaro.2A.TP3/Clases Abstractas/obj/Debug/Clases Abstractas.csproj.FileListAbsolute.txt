@@ -7,3 +7,12 @@ C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\Clases Abstractas\obj\Debug\C
 C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CopyComplete
 C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.dll
 C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.pdb
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.pdb
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Clases Abstractas\bin\Debug\Excepciones.dll
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Clases Abstractas\bin\Debug\Excepciones.pdb
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csprojAssemblyReference.cache
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CoreCompileInputs.cache
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CopyComplete
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.dll
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.pdb

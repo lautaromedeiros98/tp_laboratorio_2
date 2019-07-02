@@ -7,3 +7,12 @@ C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\Archivos\obj\Debug\Archivos.c
 C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\Archivos\obj\Debug\Archivos.csproj.CopyComplete
 C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\Archivos\obj\Debug\Archivos.dll
 C:\Users\Lalo\source\repos\Medeiros.Lautaro.2A.TP3\Archivos\obj\Debug\Archivos.pdb
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Archivos\bin\Debug\Archivos.dll
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Archivos\bin\Debug\Archivos.pdb
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Archivos\bin\Debug\Excepciones.dll
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Archivos\obj\Debug\Archivos.csproj.CopyComplete
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Archivos\obj\Debug\Archivos.dll
+C:\Users\Lalo\Desktop\tp_laboratorio_2\Medeiros.Lautaro.2A.TP3\Archivos\obj\Debug\Archivos.pdb
